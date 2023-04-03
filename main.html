@@ -7,6 +7,24 @@
 </head>
 
 <body>
+
+	<label for="game-number">Number of turns:</label>
+<input type="number" id="game-number" min="1">
+<button id="play-game">Play</button>
+
+<div>
+  <button class="rock">Rock</button>
+  <button class="paper">Paper</button>
+  <button class="scissors">Scissors</button>
+</div>
+
+<p>Rounds left: <span data-ns-test="rounds-left">0</span></p>
+<p>User points: <span data-ns-test="user-points">0</span></p>
+<p>Computer points: <span data-ns-test="computer-points">0</span></p>
+
+<p>Computer chooses: <span data-ns-test="computer-choose"></span></p>
+<p>Round result: <span data-ns-test="round-result"></span></p>
+<p>Game result: <span data-ns-test="game-result"></span></p>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
